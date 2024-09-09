@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+nav{
+    margin-top: 14px;
+}
+.archivo-all {
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+body{
+    background-color: #0C0F14;
+    overflow-x: hidden;
+}
+.main-nab-1{
+    float: left;
+    width: 50%;
+}
+.main-nab-2{
+    float: right;
+
+}
+.nab-main-box{
+    width: 100%;
+    height: 50px;
+}
+.downrow{
+    background-image: url("../img/row-b.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+    width: 14px;
+    display: inline-block;
+    position: relative;
+    top: 2.1px;
+}
+.nav-box{
+    display: inline-block;
+   
+}
+.nav-box2{
+    display: inline-block;
+}
+.box-nav1{
+    display: inline-block;
+    position: relative;
+    bottom: 10.7px;
+}
+.search1{
+    background-color: #293041;
+    border-radius: 6px;
+    border: #818B98 1px solid;
+    display: inline-block; 
+    padding: 5px;
+    width:330px;
+    position: relative;
+    top: 2.5px;
+}
+.text-s{
+    color: #C9CBCF;
+    position: relative;
+    top: 1.5px;
+}
+.logo{
+    height: 37px;
+    width: 37px;
+    background-image: url("../img/logo_git.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.search{
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 0.4px;
+    margin-left: 6px;
+   
+}
+.sl-s{
+    background-image: url("../img/sl.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 0.4px;
+    margin-left: 44%;
+}
+.sign-u{
+    border: white 1px solid;
+    border-radius: 5px;
+    padding: 7.9px 10px 5.5px 10px;
+}
+.sign-i{    
+    padding: 7.9px 10px 5.5px 10px;
+}
+.sign-ui{
+    display: inline-block;
+    position: relative;
+    top: 5.5px;
+}
+.rr-r{
+    margin-top: 2.2px;
+    margin-left: 9px;
+    cursor: pointer;
+    font-size: 14.2px;
+}
+.ss-1{
+    margin-left: 13px;
+    cursor: pointer;
+}
+.ss-2{
+    margin-left: 26.5px;
+}
+#ss{
+    margin-right: 24px;
+}
+.hover_nav:hover{
+    color: #C2C3C5;
+    transition: all 0.2s;
+}
+.sign-u:hover{
+    border: #C2C3C5 solid 1px;
+}
+/* fix down-r its going up*/
+.downrow:hover{
+    background-image: url("../img/row-a.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.pic-box-big{
+    background-image: url("../img/big-pic.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1000px;
+    width: 1000px;
+    z-index: -1;
+    position: relative;
+    bottom: 61px;
+    left: 1035px;
+    
+}
