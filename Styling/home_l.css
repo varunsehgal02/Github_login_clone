@@ -1,0 +1,116 @@
+.text-m{
+    color: white;
+    font-size: 85px;
+    font-weight: bold;
+}
+.text-m2{
+    margin-top: 13px;
+    color: #9198A1;
+    font-size: 23px;
+}
+.mid-div-home{
+    position: relative;
+    top: 134px;
+    left: 250px;
+}
+.e-text{
+   margin-top: 105px;
+    font-weight: 500;
+}
+.email-div-1{
+    width: 34.28%;
+    height: 48.5px;
+    /* border: #713FC7 solid 2px; */
+    border-radius: 5px;
+    margin-top: 10px;
+   display: inline-block;
+}
+.search-e>input{
+    color: black;
+    float: left;
+    padding: 9px 73px 9px 9px;
+    font-size: 17px;
+    outline: none;
+    border: white solid 2px; 
+
+    
+}
+input{
+    border-radius: 5px 0px 0px 5px;
+}
+.search-e>input::placeholder{
+    color: #5D6671;
+}
+.s-click{
+float: right;
+background-color: #713FC7;
+padding: 12px 32px;
+cursor: pointer;
+display: inline-block;
+font-weight: bold;
+position: relative;
+border-radius: 0px 5px 5px 0px;
+}
+.s-click>div{
+    position: relative;
+    bottom: 2px;
+}
+.line-v{
+    border: #3D444D solid 0.5px;
+    height: 52px;
+    width: 0px;
+    position: relative;
+    top: 3px;
+    left: 12px;
+    display: inline-block;
+}
+.text-in-1{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+.trial{
+    display: inline-block;
+    width: 264px;
+    height: 48px;
+    position: relative;
+    bottom: 28px;
+    left: 23px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.trial:hover{
+    border: #FFFFFF 2px solid;
+    border-radius: 5px;
+}
+.rigth-arrow{
+    background-image: url(../img/right-arrow.png);
+    background-repeat: no-repeat;
+    background-size: 13px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+.text-m3{
+    margin-top: 69px;
+    color: #9198A1;
+    font-size: 21px;
+    display: inline-block;
+}
+.s-img-1{
+    background-image: url("../img/down-r-arrow.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+}
+.add-m{
+    height: 75px;
+    width: 1000px;
+    background-image: url("../img/pic-in-line.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

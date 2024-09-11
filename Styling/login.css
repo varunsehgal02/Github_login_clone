@@ -3,6 +3,8 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
+    text-decoration: none;
+    list-style: none;
     font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 nav{
@@ -98,8 +100,8 @@ body{
 }
 .sign-u{
     border: white 1px solid;
-    border-radius: 5px;
-    padding: 7.9px 10px 5.5px 10px;
+    border-radius: 6px;
+    padding: 5px 12px 5.5px 12px;
 }
 .sign-i{    
     padding: 7.9px 10px 5.5px 10px;
@@ -107,7 +109,7 @@ body{
 .sign-ui{
     display: inline-block;
     position: relative;
-    top: 5.5px;
+    top: 5px;
 }
 .rr-r{
     margin-top: 2.2px;
@@ -145,8 +147,8 @@ body{
     height: 1000px;
     width: 1000px;
     z-index: -1;
-    position: relative;
-    bottom: 61px;
-    left: 1035px;
-    
+    position: absolute;
+    top: 2px;
+    left: 1030px;
+    display: inline-block;
 }
